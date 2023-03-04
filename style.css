@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.featured{
+    background: url(https://media.tenor.com/f9zQeKW05D0AAAAd/blue-lock-anime.gif);
+    height: 50vh;
+    color: #fff;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    width: 100vw;
+    object-fit: cover;
+    filter:brightness(80%);
+    padding: 2rem;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* For IE 8*/
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* background-repeat:no-repeat; */
+}
+.background> h1{
+    margin-top: 7rem;
+    
+}
+#discription{
+    width: 20rem;
+    padding-top: 1rem;
+}
+.play,#myList{
+    background: #fff;
+    border: none;
+    padding: 0.2rem 1rem;
+    border-radius: 2px;
+    font-size: 1.2rem;
+}
+#myList{
+    background: rgba(255, 255, 255, 0.7);
+}
+.Trending{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+/* display: grid;
+grid-template-rows: 10rem; */
+/* display: flex;
+flex-direction: row; */
+
+}
+.card-deck{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    gap: 0.3rem;
+}
+.card{
+    width: 10rem;
+    background: #E90064;
+    height: 15rem;
+    /* width: 20rem; */
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+ background: #B9F3E4;
+}
